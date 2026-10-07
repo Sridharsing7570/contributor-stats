@@ -1,0 +1,20 @@
+{
+  "repos": [
+    { "name": "storefront", "path": "C:\\Users\\you\\code\\storefront" },
+    { "name": "payments-api", "path": "/home/you/code/payments-api" }
+  ],
+  "excludePaths": [
+    "package-lock.json",
+    "pnpm-lock.yaml",
+    "yarn.lock",
+    "dist/",
+    "build/",
+    "node_modules/",
+    "*.min.js",
+    "*.map"
+  ],
+  "identities": {
+    "Asha Verma": ["asha@example.com", "asha.verma@example.org", "ashav"]
+  },
+  "ignoreAuthors": ["dependabot[bot]", "*@users.noreply.example.com"]
+}

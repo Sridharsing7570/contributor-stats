@@ -1,0 +1,17 @@
+{
+  "name": "contributor-stats",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Per-contributor git statistics across several repositories, as a static dashboard.",
+  "type": "module",
+  "workspaces": ["collector", "web"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "collect": "npm run collect -w collector --",
+    "sample": "npm run sample -w collector",
+    "dev": "npm run dev -w web --",
+    "build": "npm run typecheck -w collector && npm run build -w web",
+    "preview": "npm run preview -w web --",
+    "test": "npm run test --workspaces --if-present"
+  }
+}

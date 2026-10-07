@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# Real data never gets committed
+repos.config.json
+web/public/data/stats.json
